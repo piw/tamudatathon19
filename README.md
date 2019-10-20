@@ -4,7 +4,7 @@ Goldman Sachs Challenges project on TAMUDatathon 2019
 ## Inspiration
 
 Food is the one of the best parts of life to brings everyone together,
-and in Texas (or maybe the entire US?) that means **BURITTOS** and **TACOS**.
+and in Texas (or maybe the entire US?) that means **BURRITOS** and **TACOS**.
 This project is inspired by [a public dataset on Kaggle](https://www.kaggle.com/datafiniti/restaurants-burritos-and-tacos)
 about taco and burrito restaurants, to find meaningful insights in our everyday life around these delicious Mexican foods.
 
@@ -21,7 +21,7 @@ feature restaurants, and menu highlights with tacos and burritos.
 in Pandas to learn the data schema and spot the quality issues in the data.
 2. We dropped all columns contains no data or one single unique value (e.g. "country" is always US).
 3. The reformatted data was exported from Pandas and imported to a MySQL server for efficient data wrangling.
-4. We imported zipcode to state/city look up table from the [U.S. Census public data](https://www.census.gov/data.html) to fix the erros in "provice" column and attribute the restaurant to the correct city and state.
+4. We imported zip code to state/city look up table from the [U.S. Census public data](https://www.census.gov/data.html) to fix the erros in "province" column and attribute the restaurant to the correct city and state.
 5. We performed [SQL queries](Datathon.sql) to extract informations on top states, top cities, chain fast food restaurants, authentic Mexican restaurants, and top menu keywords related to taco and burritos.
 6. Extracted data was visualized: a) as US heatmaps using GeoPandas in Jupyter [notebook1](Restaurant_Heatmap.ipynb) [notebook2](Restaurant_Taco_Heatmap.ipynb) [notebook3](Restaurant_Burrito_Heatmap.ipynb); b) as top city bar-charts in Excel [spreadsheet](TopCityinState.xlsx); and c) as wordcloud of menu names in Jupyter [notebook](EDA.ipynb).
 
@@ -45,9 +45,9 @@ and *100% attributed the restaurant to correct city and state*.
 ![Texas favors tacos over burritos](restaurant_count_taco.png)
 ![Texas favors tacos over burritos](restaurant_count_burrito.png)
 
-#### Fish & Chicken Tacos are the favoriates, and Burritos = Breakfast
-![Fish & Chicken Tacos are the favoriates, and Burritos = Breakfast](wc_taco.png)
-![Fish & Chicken Tacos are the favoriates, and Burritos = Breakfast](wc_burrito.png)
+#### Fish & Chicken Tacos are the favorites, and Burritos = Breakfast
+![Fish & Chicken Tacos are the favorites, and Burritos = Breakfast](wc_taco.png)
+![Fish & Chicken Tacos are the favorites, and Burritos = Breakfast](wc_burrito.png)
 
 ## What's next for Taco or Burrito, that is the question ...
 Based on our investigation, the following issues should be pursued to improve the data quality and gain more insights:
