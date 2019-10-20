@@ -1,5 +1,5 @@
 # "Taco or Burrito, that is the question ..."
-Goldman Sachs Challenges project on TAMUDatathon 2019
+Goldman Sachs Challenges project on TAMUDatathon 2019, by Peng He and Pei-Chun Lai.
 
 ## Inspiration
 
