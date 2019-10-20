@@ -35,9 +35,20 @@ in Pandas to learn the data schema and spot the quality issues in the data.
 ## Accomplishments that we're proud of
 * We leveraged the [U.S. Census public data](https://www.census.gov/data.html) to fix the errors in the "province" column
 and *100% attributed the restaurant to correct city and state*.
+* We did vivid visualizations to highlight the hot locations and menu choices for tacos and burritos.
 
 ## What we learned
 
+#### Top places for tacos/burritos are California, Texas, Florida, New York City and Chicago
+![Top places for tacos/burritos are California, Texas, Florida, New York City and Chicago](restaurant_count.png)
+
+#### Texas favors tacos over burritos
+![Texas favors tacos over burritos](restaurant_count_taco.png)
+![Texas favors tacos over burritos](restaurant_count_burrito.png)
+
+#### Fish & Chicken Tacos are the favoriates, and Burritos = Breakfast
+![Fish & Chicken Tacos are the favoriates, and Burritos = Breakfast](wc_taco.png)
+![Fish & Chicken Tacos are the favoriates, and Burritos = Breakfast](wc_burrito.png)
 
 ## What's next for Taco or Burrito, that is the question ...
 Based on our investigation, the following issues should be pursued to improve the data quality and gain more insights:
